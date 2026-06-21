@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "id": "b5b4677e",
+      "cron": "23 9 * * 1-5",
+      "prompt": "执行 A股涨停板分析任务：运行 `cd /d/rgzntest && \"/c/ProgramData/anaconda3/python.exe\" stock_analyzer.py`，然后读取生成的报告文件 `D:\\rgzntest\\stock_reports\\limit_up_analysis_XXXXXX.md`（日期为当天），结合 WebSearch 搜索当天最新财经新闻和政策消息，对涨停数据进行深度分析，最终输出一份包含以下内容的综合报告：\n1. 当日市场情绪和主线判断\n2. 明日最值得关注的 3-5 只短线机会个股（含逻辑）\n3. 风险提示\n\n务必在开盘前（9:30）完成分析。",
+      "createdAt": 1781344511621,
+      "lastFiredAt": 1781871116221,
+      "recurring": true,
+      "createdBySessionId": "81583753-9c4a-42b2-8624-228ac10f1b55",
+      "createdByPid": 56300
+    }
+  ]
+}

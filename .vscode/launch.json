@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "调试 CNN 反向传播",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/cnn_backprop.py",
+            "python": "C:/ProgramData/Anaconda3/python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        }
+    ]
+}
